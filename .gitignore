@@ -1,0 +1,5 @@
+extras/build/
+extras/build_hft/
+__pycache__/
+vivado_proj/
+sim_out/

@@ -1,0 +1,9 @@
+*.sh text eol=lf
+Makefile text eol=lf
+*.v text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.S text eol=lf
+*.ld text eol=lf
+*.mem text eol=lf
+*.bat text eol=crlf
