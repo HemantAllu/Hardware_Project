@@ -1,3 +1,3 @@
 # RV32IM High-Frequency Trading Acceleration System
 
-Initial repository setup for group project.
+5-stage RV32IM pipeline core with hardware trading accelerator and UART tick parser.
