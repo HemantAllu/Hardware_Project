@@ -40,7 +40,4 @@ The multi-cycle MUL/DIV unit supports `MUL`, `MULH`, `MULHSU`, `MULHU`, `DIV`, `
 
 The trading engine accepts a price and volume, updates its recent-price history and running sums, and makes a decision in five cycles. It uses moving-average and VWAP comparisons, breakout votes, and risk checks.
 
-The engine avoids division by comparing products directly. For example, it checks whether the current price is above VWAP using:
 
-```text
-price × sumV > sumPV
