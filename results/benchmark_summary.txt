@@ -1,0 +1,7 @@
+measurement                                             n      min       mean      max   (cycles at 100 MHz)
+tick: engine (hardware)                              2241        5        5.0        5
+tick: firmware (software)                            2241      143     1042.3     1742
+tick: end of packet -> first report byte             2241      213     1115.8     1818
+allocation: hardware                                   96       13       31.9       64
+allocation: firmware (software)                        96      413     1714.1     4320
+allocation: end of packet -> first report byte         96      927     2217.8     4854
