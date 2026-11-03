@@ -1,0 +1,8 @@
+Strategy,Total_Return_Pct,Max_Drawdown_Pct,Sharpe_Ratio,Total_Trades,Win_Rate_Pct,Total_Fees_USD,Final_Equity_USD
+Buy_and_Hold,4.72,0.82,0.85,4,50.0,50000.0,104719776.54
+Original_2of3_Voting,0.022,0.01,20.73,34,15.4,1438.77,100021573.73
+MA_Only_Mode,-0.008,0.02,-18.28,89,20.0,3971.87,99992461.38
+No_Ranking_Ablation,0.022,0.01,20.73,34,15.4,1438.77,100021573.73
+No_Rotation_Ablation,0.022,0.01,20.73,34,15.4,1438.77,100021573.73
+No_Reweight_Ablation,0.022,0.01,20.73,34,0.0,1438.77,100021573.73
+Zero_Fee_Baseline,0.024,0.01,22.64,34,15.4,0.0,100023588.0
