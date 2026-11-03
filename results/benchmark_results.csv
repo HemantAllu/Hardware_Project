@@ -1,0 +1,7 @@
+Component,Unit,Min,Median,P90,P95,P99,Max,Mean,StdDev
+FPGA Core Compute (T_compute),us,0.05,0.05,0.05,0.05,0.05,0.05,0.05,0.0
+Software Core Compute (RV32IM),us,6.8,8.2062,8.9718,9.1998,9.5805,10.3219,8.2088,0.5944
+Hardware Portfolio Allocator,us,0.1488,0.336,0.5042,0.5417,0.5902,0.6328,0.3467,0.1075
+MMIO / Firmware Interface,us,0.7,0.8198,0.884,0.9019,0.9361,1.0163,0.82,0.0498
+UART Communication (115200),us,4460.0,4513.841,4536.2548,4542.3729,4553.2356,4573.7956,4514.0864,16.9153
+End-to-End System Latency,ms,4.4668,4.5282,4.5585,4.5689,4.5937,4.6657,4.5299,0.0226
