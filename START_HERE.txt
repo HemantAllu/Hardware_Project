@@ -1,0 +1,39 @@
+START HERE
+==========
+1. Extract the WHOLE zip (right-click -> Extract All) to a short folder with NO spaces and
+   NO brackets, e.g.  C:\fpga   ->  you get C:\fpga\rv32im_vivado\...
+   "Copy (2)", "New folder (3)" etc. in the path break Vivado's simulator scripts
+   ("... was unexpected at this time").
+2. Double-click  open_in_vivado.bat     (or in Vivado: Tools -> Run Tcl Script -> create_project.tcl)
+   This builds a fresh project in vivado_proj\rv32im.xpr. Use THAT project, not rv32im.xpr.
+3. Flow Navigator -> Run Simulation -> Run Behavioral Simulation, then type  run all  in the Tcl console.
+   Expect:  tb_muldiv: 25152 checks, 0 errors   and   TB_MULDIV PASS
+4. If step 3 still fails inside Vivado, double-click  run_sim.bat : it runs the same testbench
+   with the Vivado simulator from the command line (no GUI scripts involved).
+5. The board image (src/mem/imem.mem) is the trading firmware: see extras/README_REAL_DATA.md.
+   Any company:  python hft_dashboard.py --company nvidia --port COM6
+   All eight companies + comparison chart:  python hft_dashboard.py --company all --port COM6
+6. Linux, WSL or Windows Git Bash (setup: README_MAKE.md), in this folder (or extras/):
+     make check      (first time: shows which tools are missing)
+     make add | make sub | make xor | make mul | make div | make sort | make fib
+     (also: make gcd | make matmul | make primes | make all | make list | make muldiv | make timing | make test)
+   Each one compiles extras/sw/examples/<name>.c, runs it on the RV32IM core in simulation, prints the
+   program's variables and PASS/FAIL against the reference model (add/sub/xor/mul/div also check every
+   result against its expected value).  Your own program: save it as extras/sw/examples/<name>.c and run
+   make <name>.
+7. NEW in v10: two companies at the same time from ONE cash account (see CHANGES_MULTI_COMPANY.md):
+   python hft_dashboard.py --source csv --file AAPL_ticks.csv,NVDA_ticks.csv --company apple,nvidia --port COM6
+   (re-run synthesis + bitstream first: the RTL and src/mem/imem.mem changed)
+8. NEW in v11: the HARDWARE PORTFOLIO ALLOCATOR (rank + rotate + reweight, hft_alloc.v) decides for
+   all companies together once per minute; see CHANGES_PORTFOLIO_ALLOCATOR.md.
+   python hft_dashboard.py --source csv --file AAPL_ticks.csv,NVDA_ticks.csv --company apple,nvidia --port COM6
+   The window shows every company's last hour on one screen; click a company for its whole day.
+   (re-run synthesis + bitstream first: the RTL and src/mem/imem.mem changed; IMEM is now 2048 words)
+9. NEW in v12: bug-review fixes (shared-cash timing for 4/8 engines, faster allocator, kill-switch
+   consistency, UART framing check, PC report matching, linker sizes, firmware timeouts, ...):
+   read CHANGES_V12_BUGFIXES.md.  Re-run synthesis + bitstream (RTL and src/mem/*.mem changed) and
+   check WNS >= 0 for every HFT_N_MAX you want to demonstrate.
+Full instructions: README_VIVADO.txt
+
+SYNTHETIC DATA (made-up companies SYN1-SYN8 on which the strategy is profitable):
+  see extras/README_SYNTHETIC_DATA.md
