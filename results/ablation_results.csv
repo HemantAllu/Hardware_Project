@@ -1,0 +1,5 @@
+Strategy,Total_Return_Pct,Max_Drawdown_Pct,Sharpe_Ratio,Total_Trades,Win_Rate_Pct,Total_Fees_USD,Final_Equity_USD
+Original_2of3_Voting,0.022,0.01,20.73,34,15.4,1438.77,100021573.73
+No_Ranking_Ablation,0.022,0.01,20.73,34,15.4,1438.77,100021573.73
+No_Rotation_Ablation,0.022,0.01,20.73,34,15.4,1438.77,100021573.73
+No_Reweight_Ablation,0.022,0.01,20.73,34,0.0,1438.77,100021573.73
