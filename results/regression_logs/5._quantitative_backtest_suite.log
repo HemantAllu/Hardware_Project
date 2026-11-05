@@ -1,0 +1,18 @@
+COMMAND: C:\Users\heman\AppData\Local\Programs\Python\Python314\python.exe C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\extras\tools\backtest.py
+
+=== STDOUT ===
+=== RUNNING QUANTITATIVE BACKTEST SUITE (Train / Test Split) ===
+  Original_2of3_Voting      | Ret:  +0.02% | MaxDD:  0.01% | Sharpe: 20.73 | Trades: 34
+  MA_Only_Mode              | Ret:  -0.01% | MaxDD:  0.02% | Sharpe: -18.28 | Trades: 89
+  No_Ranking_Ablation       | Ret:  +0.02% | MaxDD:  0.01% | Sharpe: 20.73 | Trades: 34
+  No_Rotation_Ablation      | Ret:  +0.02% | MaxDD:  0.01% | Sharpe: 20.73 | Trades: 34
+  No_Reweight_Ablation      | Ret:  +0.02% | MaxDD:  0.01% | Sharpe: 20.73 | Trades: 34
+  Zero_Fee_Baseline         | Ret:  +0.02% | MaxDD:  0.01% | Sharpe: 22.64 | Trades: 34
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\backtest_results.csv
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\ablation_results.csv
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\equity_curve.png
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\drawdown.png
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\strategy_comparison.png
+=== QUANTITATIVE BACKTEST SUITE COMPLETE ===
+
+=== STDERR ===

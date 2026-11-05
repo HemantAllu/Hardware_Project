@@ -1,0 +1,16 @@
+COMMAND: C:\Users\heman\AppData\Local\Programs\Python\Python314\python.exe C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\extras\tools\test_companies.py
+
+=== STDOUT ===
+names ok: Apple (AAPL), Nvidia (NVDA), Google (GOOGL), Microsoft (MSFT), Amazon (AMZN), Walmart (WMT), Meta (META), Tesla (TSLA)
+single company ok: Nvidia 2026-10-09, 390 ticks, log + .cfg (symbol=NVDA) + picture
+all companies ok: 16 runs (8 companies x 2 sessions), all FPGA checks PASS, 1478 trades, summary.csv/.md + comparison.png
+verify_run ok: 8 logs PASS incl. the market re-download; a log checked against the wrong ticker FAILS
+together ok (cap 0%): 780 ticks AAPL+NVDA merged by minute, 61 trades, 0 BUYs refused by the cap, verify_run PASS (shared cash + both market checks)
+together ok (cap 30%): 780 ticks AAPL+NVDA merged by minute, 33 trades, 193 BUYs refused by the cap, verify_run PASS (shared cash + both market checks)
+hybrid ok (2 companies): 780 ticks + 390 ALLOCATE, 90 BUY, 9 ROT, every report == PortfolioModel, verify_run PASS (model + 2 market checks), overview + 2 whole-day pages drawn
+hybrid ok (4 companies): 1560 ticks + 390 ALLOCATE, 169 BUY, 10 ROT, every report == PortfolioModel, verify_run PASS (model + 4 market checks), overview + 4 whole-day pages drawn
+hybrid ok (4 companies, --no-rotate): 1560 ticks + 390 ALLOCATE, 94 BUY, 0 ROT, every report == PortfolioModel, verify_run PASS (model + 4 market checks), overview + 4 whole-day pages drawn
+hybrid ok: a v10 board (no allocator) is refused: "the board did not accept the portfolio mode (answer 0x0): this bitstre..."
+PASS: company feature (offline, synthetic bars)
+
+=== STDERR ===

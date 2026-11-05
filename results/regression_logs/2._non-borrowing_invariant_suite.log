@@ -1,0 +1,6 @@
+COMMAND: C:\Users\heman\AppData\Local\Programs\Python\Python314\python.exe C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\extras\tools\test_no_borrow.py
+
+=== STDOUT ===
+PASS: cash/inventory interlock, exact moving average, zero-volume rule, blocked-signal counters
+
+=== STDERR ===

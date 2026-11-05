@@ -1,0 +1,10 @@
+COMMAND: C:\Users\heman\AppData\Local\Programs\Python\Python314\python.exe C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\extras\tools\profile_scalability.py
+
+=== STDOUT ===
+=== PROFILING FPGA RESOURCE SCALABILITY (N = 1, 2, 4, 8) ===
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\resource_scalability.csv
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\lut_scalability.png
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\fmax_scalability.png
+=== SCALABILITY PROFILING COMPLETE ===
+
+=== STDERR ===

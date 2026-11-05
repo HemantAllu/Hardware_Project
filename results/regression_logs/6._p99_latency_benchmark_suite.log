@@ -1,0 +1,12 @@
+COMMAND: C:\Users\heman\AppData\Local\Programs\Python\Python314\python.exe C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\extras\tools\benchmark_p99.py
+
+=== STDOUT ===
+=== PROFILING LATENCY & THROUGHPUT (Population: N=10000 ticks) ===
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\benchmark_results.csv
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\tick_latency.png
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\allocation_latency.png
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\hardware_software_comparison.png
+Saved: C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\results\throughput_comparison.png
+=== BENCHMARK PROFILING COMPLETE ===
+
+=== STDERR ===

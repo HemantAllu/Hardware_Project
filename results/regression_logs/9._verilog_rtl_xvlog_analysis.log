@@ -1,0 +1,20 @@
+COMMAND: xvlog C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\extras\tb\tb_strategy_selector.v C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\src\rtl\hft_mmio.v C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\src\rtl\hft_multi.v C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\src\rtl\hft_accelerator.v C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\src\rtl\hft_alloc.v C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\src\rtl\tick_parser.v C:\Users\heman\Downloads\rv32im_vivado_v12_verified\rv32im_vivado_v12_complete\src\rtl\uart.v
+
+=== STDOUT ===
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/extras/tb/tb_strategy_selector.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_strategy_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/src/rtl/hft_mmio.v" into library work
+INFO: [VRFC 10-311] analyzing module hft_mmio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/src/rtl/hft_multi.v" into library work
+INFO: [VRFC 10-311] analyzing module hft_multi
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/src/rtl/hft_accelerator.v" into library work
+INFO: [VRFC 10-311] analyzing module hft_accelerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/src/rtl/hft_alloc.v" into library work
+INFO: [VRFC 10-311] analyzing module hft_alloc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/src/rtl/tick_parser.v" into library work
+INFO: [VRFC 10-311] analyzing module tick_parser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/heman/Downloads/rv32im_vivado_v12_verified/rv32im_vivado_v12_complete/src/rtl/uart.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-311] analyzing module uart_tx
+
+=== STDERR ===
